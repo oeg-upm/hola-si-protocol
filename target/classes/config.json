@@ -1,0 +1,12 @@
+{
+  "client-1": {
+    "query-endpoint": "http://localhost:3030/client-1/query",
+    "update-endpoint": "http://localhost:3030/client-1/update",
+    "ontology-name": "saref"
+  },
+  "client-2": {
+    "query-endpoint": "http://localhost:3030/client-2/query",
+    "update-endpoint": "http://localhost:3030/client-2/update",
+    "ontology-name": "ssn"
+  }
+}

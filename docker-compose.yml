@@ -1,0 +1,13 @@
+version: '2'
+services:
+  triplestore:
+    #image: acimmino/auroral-fuseky:latest
+    image: semapps/jena-fuseki-webacl
+    environment:
+     ADMIN_PASSWORD: pw123
+    volumes:
+    - triplestore:/fuseki
+    ports:
+      - '3030:3030'
+volumes:
+  triplestore:
