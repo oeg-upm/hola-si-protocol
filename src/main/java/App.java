@@ -1,7 +1,4 @@
-import org.apache.jena.rdf.model.*;
 import org.apache.jena.sparql.resultset.ResultsFormat;
-import org.apache.jena.vocabulary.*;
-import org.glassfish.json.JsonUtil;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileReader;
@@ -10,20 +7,11 @@ import java.util.HashMap;
 
 import static spark.Spark.*;
 
-import org.apache.jena.sparql.resultset.ResultsFormat;
-
-import java.io.*;
-
-import java.util.HashMap;
-
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class Main extends Object{
-    // some definitions
-    static String personURI    = "http://somewhere/JohnSmith";
-    static String fullName     = "John Smith";
+public class App extends Object{
 
     public static void main (String args[]) throws Exception{
         //staticFiles.location("/public");
