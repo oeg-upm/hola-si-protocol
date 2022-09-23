@@ -22,6 +22,8 @@ public class Triplestore {
     private static String username = null;
     private static String password = null;
 
+
+    //Create triplestore object and configure it with the client's parameters
     public Triplestore( String queryEnpoint, String updateEnpoint) throws URISyntaxException {
         this.updateEnpoint = new URI(updateEnpoint);
         this.queryEnpoint = new URI(queryEnpoint);
@@ -43,7 +45,9 @@ public class Triplestore {
         return ResultsFormat.lookup(str);
     }
 
-    public static ByteArrayOutputStream query(String sparql, ResultsFormat format) throws Exception {
+
+    //Perform a query to the database
+    public static ByteArrayOutputStream query(String sparql, ResultsFormat format) throws Exception{
         try {
             return getSparqlEndpoint().query(sparql, format);
         } catch (Exception e) {
@@ -51,6 +55,8 @@ public class Triplestore {
         }
     }
 
+
+    //Update a graph in the database
     public static void update(String sparql) throws Exception{
         try {
             getSparqlEndpoint().update(sparql);

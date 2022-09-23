@@ -1,0 +1,5 @@
+{
+  "query-endpoint": "http://localhost:3030/client-1/query",
+  "update-endpoint": "http://localhost:3030/client-1/update",
+  "ontology-name": "saref"
+}

@@ -11,67 +11,30 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class App extends Object{
+public class App{
 
-    public static void main (String args[]) throws Exception{
+    public static String CLIENT_NAME;
+    public static String CLIENT_TARGET_NAME;
+    public static final String CLIENT_STARTER="client-1";
+
+    public static void main (String args[]){
         //staticFiles.location("/public");
+        CLIENT_NAME = args[0];
+        CLIENT_TARGET_NAME = args[1];
+
         setUp();
-        get("/hello", (req, res) -> "Hello World");
-        //Controller.manageRequests();
-        System.out.println("ey");
+        Controller.init();
 
     }
 
-    public static void setUp() throws Exception {
-        //arrancar jena fuseki
-        //conseguir uuid map
-        //conseguir ontología
+    public static void setUp() {
+        //arrancar jena fuseki HECHO
+        //conseguir ontología HECHO
+        //conseguir uuid map PENDIENTE
+        //sesiones(?) PENDIENTE
 
-        HashMap<String, String> config = obtainConfig("client-1");
-        probarQuery(config);
-        mandarRequest();
+        if(CLIENT_NAME.equals("client-2")) port(4568);
+        HashMap<String, String> config = Service.obtainConfig(CLIENT_NAME);
     }
 
-    private static HashMap<String, String> obtainConfig(String clientName) {
-        HashMap<String, String> config = new HashMap<String, String>();
-        JSONParser parser = new JSONParser();
-        try {
-            Object obj = parser.parse(new FileReader("src/main/resources/config.json"));
-            JSONObject jsonObject = (JSONObject) obj;
-            JSONObject client = (JSONObject) jsonObject.get(clientName);
-            System.out.println(client);
-
-            config.put("ontologyName", client.get("ontology-name").toString());
-            config.put("queryEndpoint", client.get("query-endpoint").toString());
-            config.put("updateEndpoint", client.get("update-endpoint").toString());
-
-
-        } catch (ParseException | IOException e) {
-            e.printStackTrace();
-        }
-
-        return config;
-    }
-
-    private static void probarQuery(HashMap<String, String> config) throws Exception {
-        String query = "SELECT ?subject ?predicate ?object\n" +
-                "WHERE {\n" +
-                "  ?subject ?predicate ?object\n" +
-                "}\n" +
-                "LIMIT 25";
-        //triplestore que se construya mediante fichero de config json, que sea OBLIGATORIO para la configuracion de la app (triplestore, heuristicas del paso 4 específicas para cada cliente, etc)
-        Triplestore t = new Triplestore(config.get("queryEndpoint"), config.get("updateEndpoint"));
-        ByteArrayOutputStream baos =t.query(query, ResultsFormat.FMT_RS_JSON);
-        System.out.println(baos);
-
-
-        String a = baos.toString();
-        JSONParser parser = new JSONParser();
-        JSONObject json = (JSONObject) parser.parse(a);
-        System.out.println(json);
-    }
-
-    private static void mandarRequest(){
-
-    }
 }
