@@ -1,5 +1,8 @@
 {
   "query-endpoint": "http://localhost:3030/client-1/query",
   "update-endpoint": "http://localhost:3030/client-1/update",
-  "ontology-name": "saref"
+  "ontology-name": "saref",
+  "linker": "file",
+  "reduce-phase1": "",
+  "reduce-phase2": ""
 }

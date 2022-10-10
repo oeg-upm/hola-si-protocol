@@ -1,3 +1,6 @@
+import org.apache.commons.io.IOUtils;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
 import org.apache.jena.sparql.resultset.ResultsFormat;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
@@ -6,14 +9,14 @@ import spark.Request;
 import spark.Response;
 import spark.Route;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.net.URISyntaxException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.HashMap;
 
 
-public class Service {
+public class Service{
 
 
     //METHODS
@@ -22,36 +25,25 @@ public class Service {
     //Access Triplestore to retrieve the own complete ontology
     public static String getOwnOntology() {
 
-        //build query
-        HashMap<String, String> config = obtainConfig(App.CLIENT_NAME);
-        String query = "SELECT ?subject ?predicate ?object\n" +
-                "WHERE {\n" +
-                "  ?subject ?predicate ?object\n" +
-                "}\n";
+        String ontology = null;
+        try {
 
-        //create triplestore
-        Triplestore t = null;
-        try{t = new Triplestore(config.get("queryEndpoint"), config.get("updateEndpoint"));}
-        catch (URISyntaxException e){e.printStackTrace();}
+            switch(App.CLIENT_NAME){
+                case "client-1": ontology = Files.readString(Path.of("src/main/resources/client1-ontology.owl"));break;
+                case "client-2": ontology = Files.readString(Path.of("src/main/resources/client2-ontology.owl"));break;
+                case "client-3": ontology = Files.readString(Path.of("src/main/resources/client3-ontology.owl"));break;
+            }
 
-        //perform query
-        ByteArrayOutputStream baos = null;
-        try{baos =t.query(query, ResultsFormat.FMT_RS_JSON);}
-        catch (Exception e){e.printStackTrace();}
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
 
-        /*String a = baos.toString();
-        JSONParser parser = new JSONParser();
-        JSONObject json = null;
-        try {json = (JSONObject) parser.parse(a);}
-        catch (ParseException e){e.printStackTrace();}*/
-
-        //System.out.println(json);
-        return baos.toString();
+        return ontology;
     }
 
 
     //Reads local file to get the configuration parameters for the own client
-    public static HashMap<String, String> obtainConfig(String clientName) {
+    public static HashMap<String, String> obtainConfig() {
 
         //Creates hashmap to store config values, fill and return it
         HashMap<String, String> config = new HashMap<String, String>();
@@ -68,13 +60,29 @@ public class Service {
             config.put("ontologyName", jsonObject.get("ontology-name").toString());
             config.put("queryEndpoint", jsonObject.get("query-endpoint").toString());
             config.put("updateEndpoint", jsonObject.get("update-endpoint").toString());
-
+            config.put("linker", jsonObject.get("linker").toString());
 
         } catch (ParseException | IOException e) {
             e.printStackTrace();
         }
 
         return config;
+    }
+
+    //Calculates the base alignments of the own and foreign ontology based on the config file parameter
+    public static String step2(String ownOntology, String foreignOntology){
+
+        //Factory Method
+        HashMap<String, String> config = obtainConfig();
+
+        AlignmentFactory factory = new AlignmentFactory();
+        IOntologyLinker linker = factory.createOntologyLinker(config.get("linker"));
+
+        return linker.calculateAlignments(ownOntology, foreignOntology);
+    }
+
+    public static void step4(String own, String foreign){
+
     }
 
 
@@ -100,17 +108,22 @@ public class Service {
     public static Route exchangeOntology = (Request request, Response response) -> {
         response.type("application/json");
         response.status(200);
-        System.out.println(request.body());
+        request.body();
 
-        response.body(getOwnOntology());
         return getOwnOntology();
     };
 
+    //Client receives other client's alignments and performs steps 2 and 4 before returning its alignments via response (step 3) to keep execution single threaded
     public static Route exchangeAlignments = (Request request, Response response) -> {
 
-        return null;
+        response.type("application/json");
+        response.status(200);
+        request.body();
+
+        String ownAlignments = step2(getOwnOntology(), request.body());
+        step4(ownAlignments, request.body());
+
+        return ownAlignments;
     };
-
-
 
 }

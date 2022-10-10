@@ -1,3 +1,7 @@
+import org.apache.commons.io.IOUtils;
+import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.ModelFactory;
+
 import java.io.*;
 
 import static spark.Spark.*;
@@ -14,25 +18,32 @@ import java.net.URL;
 
 public class Controller {
 
-    //First method executed. Since client and server are the same (p2p), we need to detect which client is the one starting the communication
-    public static void init(){
-        if(App.CLIENT_NAME.equals(App.CLIENT_STARTER)) {
+    //Only active client will execute this method. This client will perform requests to the passive client
+    public static void initProcess() {
 
-            //If the client is the starter, perform the first steps without going passive (waiting for the other to make requests)
-            int step0Code = -1;
-            try {step0Code = step0();}
-            catch (IOException e){e.printStackTrace();}
+        //Obtain own ontology and proceed to step 0
+        int step0Code = -1;
+        try {step0Code = step0();}
+        catch (IOException e){e.printStackTrace();}
 
-            //If client responds with 200, go to step 1
-            if(step0Code == 200) {
-                System.out.println("Parliament code 200, proceeding to step 1");
-                step1();
-            }
-            //else if(step0Code == 220) step3();
+        String ownOntology = Service.getOwnOntology();
+        String foreignOntology;
+        String ownAlignments = null;
+        String foreignAlignments;
+
+        //If client responds with 200, go to step 1
+        if(step0Code == 200) {
+            System.out.println("Parliament code 200, proceeding to step 1");
+            foreignOntology = step1(ownOntology);
+            ownAlignments = Service.step2(ownOntology, foreignOntology);
         }
+        //if client responds with 220, go to step 3. Client does not need our ontology
+        else if(step0Code == 220) {
+            System.out.println("Parliament code 220, proceeding to step 3");
+        }
+        foreignAlignments=step3(ownAlignments);
+        Service.step4(ownAlignments, foreignAlignments);
 
-        //If the client is the passive, wait for the other to start communication
-        manageRequests();
     }
 
 
@@ -56,16 +67,23 @@ public class Controller {
 
 
     //In Step 1, first active client send its ontology to the passive, who, when received, send its own to the active
-    private static void step1(){
+    private static String step1(String ontology){
 
         //First we get own ontology and send it. The same method who sends also returns the other client's ontology
-        String ontology = Service.getOwnOntology();
-        String receivedOntology = "";
+        String receivedOntology = null;
         try{receivedOntology = sendOntology(ontology);}
         catch (ConnectException e){ e.printStackTrace();}
 
-        System.out.println(receivedOntology);
+        return receivedOntology;
 
+    }
+
+    //We send our alignments, result of step 2, to the other client, and wait to obtain its alignments to procede with step 4
+    private static String step3(String links){
+        String alignments = null;
+        try{alignments = sendAlignments(links);}
+        catch (ConnectException e){ e.printStackTrace();}
+        return alignments;
     }
 
 
@@ -141,7 +159,7 @@ public class Controller {
 
             //write data to send
             try(OutputStream os = conn.getOutputStream()) {
-                byte[] input = ontology.getBytes("utf-8");
+                byte[] input = ontology.toString().getBytes("utf-8");
                 os.write(input, 0, input.length);
             }
 
@@ -151,7 +169,61 @@ public class Controller {
                 StringBuilder response = new StringBuilder();
                 String responseLine = null;
                 while ((responseLine = br.readLine()) != null) {
-                    response.append(responseLine.trim());
+                    response.append(responseLine.trim() + " ");
+                }
+                resp = response.toString();
+            }
+
+            conn.disconnect();
+        }
+        catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (ConnectException e) {
+            throw new ConnectException("Cannot connect to target client. Check if it is running");
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        finally {
+            conn.disconnect();
+        }
+        return resp;
+    }
+
+    //Communication method of Step 3, active client sends its alignments to passive client, and wait for it to return its before proceeding to Step 4
+    private static String sendAlignments(String alignments) throws ConnectException{
+        HttpURLConnection conn = null;
+        String resp = "";
+        URL url = null;
+        try{
+            switch (App.CLIENT_TARGET_NAME){
+                case "client-1": url = new URL("http://localhost:4567/api/exchange/alignments");break;
+                case "client-2": url = new URL("http://localhost:4568/api/exchange/alignments");break;
+                case "client-3": url = new URL("http://localhost:4569/api/exchange/alignments");break;
+            }
+            conn = (HttpURLConnection) url.openConnection();
+
+            // Request setup
+            conn.setRequestMethod("PUT");
+            conn.setConnectTimeout(5000);
+            conn.setReadTimeout(5000);
+            conn.setRequestProperty("Content-Type", "application/json");
+            conn.setRequestProperty("Accept", "application/json");
+            conn.setDoOutput(true);
+
+            //write data to send
+            try(OutputStream os = conn.getOutputStream()) {
+                byte[] input = alignments.toString().getBytes("utf-8");
+                os.write(input, 0, input.length);
+            }
+
+            //get data recieved
+            try(BufferedReader br = new BufferedReader(
+                    new InputStreamReader(conn.getInputStream(), "utf-8"))) {
+                StringBuilder response = new StringBuilder();
+                String responseLine = null;
+                while ((responseLine = br.readLine()) != null) {
+                    response.append(responseLine.trim() + " ");
                 }
                 resp = response.toString();
             }
