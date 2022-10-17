@@ -1,4 +1,4 @@
-import org.apache.jena.rdf.model.Model;
+package OntologyLinker;
 
 public interface IOntologyLinker {
 

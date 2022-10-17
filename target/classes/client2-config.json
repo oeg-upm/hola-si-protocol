@@ -1,8 +1,8 @@
 {
+  "starts": "false",
+  "peer": "client-1",
   "query-endpoint": "http://localhost:3030/client-2/query",
   "update-endpoint": "http://localhost:3030/client-2/update",
-  "ontology-name": "ssn",
   "linker": "file",
-  "reduce-phase1": "",
-  "reduce-phase2": ""
+  "reducer": "max-old"
 }

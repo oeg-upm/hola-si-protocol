@@ -1,30 +1,26 @@
-import org.apache.jena.sparql.resultset.ResultsFormat;
+package App;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileReader;
-import java.io.IOException;
 import java.util.HashMap;
 
+import static java.lang.Boolean.parseBoolean;
 import static spark.Spark.*;
-
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 public class App{
 
     public static String CLIENT_NAME;
     public static String CLIENT_TARGET_NAME;
-    public static final String CLIENT_STARTER="client-1";
+    public static String CLIENT_STARTER;
+
+    private static HashMap<String, String> config;
 
     public static void main (String args[]) {
         CLIENT_NAME = args[0];
-        CLIENT_TARGET_NAME = args[1];
 
         setUp();
 
         //Client and server are the same (p2p), so we need to detect which client is the one starting the communication and which is listening to requests
-        if(App.CLIENT_NAME.equals(App.CLIENT_STARTER)) {Controller.initProcess();}
+        if(App.CLIENT_NAME.equals(App.CLIENT_STARTER)) {
+            Controller.initProcess();}
         Controller.manageRequests();
 
     }
@@ -36,7 +32,15 @@ public class App{
         //sesiones PENDIENTE
 
         if(CLIENT_NAME.equals("client-2")) port(4568);
-        HashMap<String, String> config = Service.obtainConfig();
+
+        config = Service.obtainConfig();
+        CLIENT_TARGET_NAME = config.get("peer");
+        if(parseBoolean(config.get("starts"))) CLIENT_STARTER = CLIENT_NAME;
+        else CLIENT_STARTER = config.get("peer");
+    }
+
+    public static HashMap<String, String> getConfig() {
+        return config;
     }
 
 }

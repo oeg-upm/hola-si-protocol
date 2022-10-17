@@ -1,7 +1,9 @@
-import org.apache.commons.io.IOUtils;
+package App;
+
+import App.App;
+import LinkReducer.ILinkReducer;
+import OntologyLinker.IOntologyLinker;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
-import org.apache.jena.sparql.resultset.ResultsFormat;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -10,7 +12,6 @@ import spark.Response;
 import spark.Route;
 
 import java.io.*;
-import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashMap;
@@ -22,7 +23,7 @@ public class Service{
     //METHODS
 
 
-    //Access Triplestore to retrieve the own complete ontology
+    //Access App.Triplestore to retrieve the own complete ontology
     public static String getOwnOntology() {
 
         String ontology = null;
@@ -57,10 +58,13 @@ public class Service{
             }
             JSONObject jsonObject = (JSONObject) obj;
 
-            config.put("ontologyName", jsonObject.get("ontology-name").toString());
+            config.put("starts", jsonObject.get("starts").toString());
+            config.put("peer", jsonObject.get("peer").toString());
             config.put("queryEndpoint", jsonObject.get("query-endpoint").toString());
             config.put("updateEndpoint", jsonObject.get("update-endpoint").toString());
             config.put("linker", jsonObject.get("linker").toString());
+            config.put("reducer", jsonObject.get("reducer").toString());
+
 
         } catch (ParseException | IOException e) {
             e.printStackTrace();
@@ -73,16 +77,17 @@ public class Service{
     public static String step2(String ownOntology, String foreignOntology){
 
         //Factory Method
-        HashMap<String, String> config = obtainConfig();
-
         AlignmentFactory factory = new AlignmentFactory();
-        IOntologyLinker linker = factory.createOntologyLinker(config.get("linker"));
+        IOntologyLinker linker = factory.createOntologyLinker(App.getConfig().get("linker"));
 
         return linker.calculateAlignments(ownOntology, foreignOntology);
     }
 
-    public static void step4(String own, String foreign){
+    public static Model step4(String ownAlignments, String foreignAlignments){
+        AlignmentFactory factory = new AlignmentFactory();
+        ILinkReducer linker = factory.createLinkReducer(App.getConfig().get("reducer"));
 
+        return linker.reduceAlignments(ownAlignments, foreignAlignments);
     }
 
 
@@ -116,12 +121,16 @@ public class Service{
     //Client receives other client's alignments and performs steps 2 and 4 before returning its alignments via response (step 3) to keep execution single threaded
     public static Route exchangeAlignments = (Request request, Response response) -> {
 
+        Model result;
+
         response.type("application/json");
         response.status(200);
         request.body();
 
         String ownAlignments = step2(getOwnOntology(), request.body());
-        step4(ownAlignments, request.body());
+        result = step4(ownAlignments, request.body());
+
+        result.write(System.out, "TTL");
 
         return ownAlignments;
     };

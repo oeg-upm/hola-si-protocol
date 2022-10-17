@@ -1,6 +1,7 @@
-import org.apache.commons.io.IOUtils;
+package App;
+
+import App.App;
 import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
 
 import java.io.*;
 
@@ -30,6 +31,7 @@ public class Controller {
         String foreignOntology;
         String ownAlignments = null;
         String foreignAlignments;
+        Model newAlignments = null;
 
         //If client responds with 200, go to step 1
         if(step0Code == 200) {
@@ -42,7 +44,9 @@ public class Controller {
             System.out.println("Parliament code 220, proceeding to step 3");
         }
         foreignAlignments=step3(ownAlignments);
-        Service.step4(ownAlignments, foreignAlignments);
+        newAlignments = Service.step4(ownAlignments, foreignAlignments);
+
+        newAlignments.write(System.out, "TTL");
 
     }
 
