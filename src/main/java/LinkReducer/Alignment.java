@@ -1,11 +1,12 @@
 package LinkReducer;
 
+import java.util.Iterator;
 import java.util.Objects;
+import java.util.Set;
 
 public class Alignment {
 
     private String subject;
-    private String predicate;
     private String object;
     private Float measure;
 
@@ -13,7 +14,6 @@ public class Alignment {
         this.measure = (float) -1;
         this.subject = "";
         this.object = "";
-        this.predicate = "";
     }
 
     public Alignment(String subject, String object, Float measure) {
@@ -24,10 +24,6 @@ public class Alignment {
 
     public String getSubject() {
         return subject;
-    }
-
-    public String getPredicate() {
-        return predicate;
     }
 
     public String getObject() {
@@ -42,10 +38,6 @@ public class Alignment {
         this.subject = subject;
     }
 
-    public void setPredicate(String predicate) {
-        this.predicate = predicate;
-    }
-
     public void setObject(String object) {
         this.object = object;
     }
@@ -54,15 +46,25 @@ public class Alignment {
         this.measure = measure;
     }
 
+    public String toJSON() {
+        return "{\"entity1\": \"" + subject + "\", \"entity2\": \"" + object + "\", \"measure\": " + measure + "}";
+    }
+
     @Override
     public String toString() {
         return "Alignment{" +
                 "subject='" + subject + '\'' +
-                ", predicate='" + predicate + '\'' +
                 ", object='" + object + '\'' +
                 ", measure=" + measure +
-                '}';
+                "}\n";
     }
+
+    public boolean halfEquals(Object o) {
+        if (!(o instanceof Alignment)) return false;
+        Alignment alignment = (Alignment) o;
+        return subject.equals(alignment.subject) && object.equals(alignment.object);
+    }
+
 
     @Override
     public boolean equals(Object o) {

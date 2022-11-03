@@ -1,8 +1,0 @@
-{
-  "starts": "true",
-  "peer": "client-2",
-  "query-endpoint": "http://localhost:3030/client-1/query",
-  "update-endpoint": "http://localhost:3030/client-1/update",
-  "linker": "file",
-  "reducer": "max-old"
-}
