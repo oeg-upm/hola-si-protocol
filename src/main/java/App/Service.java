@@ -20,16 +20,18 @@ import java.util.*;
 
 public class Service{
 
+    private static String foreignOntology;
+
 
     //METHODS
 
 
-    //Access App.Triplestore to retrieve the own complete ontology
+    //Access ontology file to retrieve the own complete ontology
     public static String getOwnOntology() {
 
         String ontology = null;
         try {
-            ontology = Files.readString(Path.of("data/" + App.CLIENT_NAME + "/ontology.owl"));
+            ontology = Files.readString(Path.of(App.CLIENT_NAME + "/data/ontologies/ontology.owl"));
         }catch (Exception e) {
             e.printStackTrace();
         }
@@ -45,7 +47,7 @@ public class Service{
         HashMap<String, String> config = new HashMap<>();
         JSONParser parser = new JSONParser();
         try {
-            Object obj = parser.parse(new FileReader("data/" + App.CLIENT_NAME + "/config.json"));
+            Object obj = parser.parse(new FileReader(App.CLIENT_NAME + "/data/config/config.json"));
 
             JSONObject jsonObject = (JSONObject) obj;
 
@@ -57,6 +59,7 @@ public class Service{
             config.put("incrementValue", jsonObject.get("increment").toString());
             config.put("tautologyValue", jsonObject.get("tautology").toString());
             config.put("specialValue", jsonObject.get("special").toString());
+            config.put("update", jsonObject.get("update").toString());
 
 
         } catch (ParseException | IOException e) {
@@ -99,10 +102,11 @@ public class Service{
         Set<Alignment> incompatibilitiesReduced = linker.reduceIncompatibilities(incompatibilities);
         reduced.addAll(incompatibilitiesReduced);
 
-        //Apply increments and upload to file
-        Set<Alignment> incremented = applyIncrements(ownAlignments, reduced);
-        updateAlignments(incremented);
-
+        if(Boolean.parseBoolean(obtainConfig().get("update"))) {
+            //Apply increments and upload to file
+            Set<Alignment> incremented = applyIncrements(ownAlignments, reduced);
+            updateAlignments(incremented);
+        }
     }
 
     //Method that given both sets of alignments, extracts all pairs which create an incompatibility
@@ -131,15 +135,12 @@ public class Service{
     //also deleting in the process those alignments which do create incompatibilities
     private static Set<Alignment> reduceWithoutIncompatibilities(Set<Alignment> ownReducedAlignments, Set<Alignment> foreignReducedAlignments, Set<ArrayList<Alignment>> incompatibilities) {
         Set<Alignment> reduced = new HashSet<>();
-
         for(ArrayList<Alignment> arr : incompatibilities){
             ownReducedAlignments.removeIf(a -> arr.get(0).equals(a));
             foreignReducedAlignments.removeIf(a -> arr.get(1).equals(a));
         }
-
         for(Alignment a : ownReducedAlignments)reduced.add(a);
         for(Alignment a : foreignReducedAlignments)reduced.add(a);
-
         return reduced;
     }
 
@@ -150,16 +151,23 @@ public class Service{
         Float increment = Float.valueOf(config.get("incrementValue"));
         Float tautology = Float.valueOf(config.get("tautologyValue"));
 
+        boolean found;
         for(Alignment a : newAlignments) {
+            found = false;
             for (Alignment b : oldAlignments) {
-                //If an alignment was in the old set and in the new after step 4, reward it with an increment of its measure
+                //If a new alignment was also in the old set, reward it with an increment of its measure
                 if(a.halfEquals(b)){
                     float measure = a.getMeasure() + increment;
                     if(measure > tautology) measure = tautology;
                     Alignment al = new Alignment(a.getSubject(), a.getObject(), measure);
                     result.add(al);
+                    found = true;
                     break;
                 }
+            }
+            //If a new alignment was not in the old set, add it as it is
+            if(!found) {
+                result.add(a);
             }
         }
         return result;
@@ -177,7 +185,7 @@ public class Service{
         JSONData = JSONData.concat("]}");
 
         try {
-            FileWriter f = new FileWriter("data/" + App.CLIENT_NAME + "/alignments.json", false);
+            FileWriter f = new FileWriter(App.CLIENT_NAME + "/data/links/alignments.json", false);
             f.write(JSONData);
             f.close();
         }catch (IOException e) {
@@ -187,10 +195,11 @@ public class Service{
         if(Service.obtainConfig().get("linker").equals("file")){
             String config = null;
             try{
-                config = Files.readString(Path.of("data/" + App.CLIENT_NAME + "/config.json"));
+                config = Files.readString(Path.of(App.CLIENT_NAME + "/data/config/config.json"));
             }catch (Exception e) {
                 e.printStackTrace();
             }
+
 
             Scanner scanner = new Scanner(config);
             String lines = "";
@@ -202,7 +211,7 @@ public class Service{
                 lines = lines.concat(line + "\n");
             }
             try {
-                FileWriter f = new FileWriter("data/" + App.CLIENT_NAME + "/config.json", false);
+                FileWriter f = new FileWriter(App.CLIENT_NAME + "/data/config/config.json", false);
                 f.write(lines);
                 f.close();
             }catch (IOException e) {
@@ -220,13 +229,16 @@ public class Service{
         response.type("text/html");
         if(true) { //evaluate that we need the ontology + links
             response.status(200);
+            System.out.println("Accepting parliament with peer");
         }
         else if (false) { //already have your ontology, send links only
             response.status(220);
+            System.out.println("Accepting parliament with peer but straight to step 3");
             return getOwnOntology();
         }
         else{ //dont want to communicate at all
             response.status(418);
+            System.out.println("Declining parliament with peer");
         }
         return "Parliament done";
     };
@@ -235,7 +247,10 @@ public class Service{
     public static Route exchangeOntology = (Request request, Response response) -> {
         response.type("application/json");
         response.status(200);
-        request.body();
+
+        foreignOntology = request.body();
+
+        System.out.println("Sending own ontology to peer and receiving its to calculate first alignments");
 
         return getOwnOntology();
     };
@@ -247,7 +262,7 @@ public class Service{
         response.status(200);
         request.body();
 
-        Set<Alignment> ownAlignments = step2(getOwnOntology(), request.body());
+        Set<Alignment> ownAlignments = step2(getOwnOntology(), foreignOntology);
         Set<Alignment> foreignAlignments = new HashSet<>();
 
         Set<Alignment> send = new HashSet<>(ownAlignments);
@@ -264,6 +279,7 @@ public class Service{
             throw new RuntimeException(e);
         }
 
+        System.out.println("Getting alignments from peer and reducing both sets");
         step4(ownAlignments, foreignAlignments);
 
         String JSONData = "{\"alignments\":[";
@@ -275,6 +291,7 @@ public class Service{
         }
         JSONData = JSONData.concat("]}");
 
+        System.out.println("Sending own alignments to peer");
         return JSONData;
     };
 

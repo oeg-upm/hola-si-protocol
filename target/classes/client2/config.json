@@ -1,9 +1,0 @@
-{
-  "starts": "false",
-  "peer": "client1",
-  "target-port": "4567",
-  "linker": "file",
-  "reducer": "max-old",
-  "increment": "0.01",
-  "tautology": "2"
-}

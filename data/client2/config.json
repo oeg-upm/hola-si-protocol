@@ -6,5 +6,6 @@
   "reducer": "max-old",
   "increment": "0.01",
   "special": "1.25",
-  "tautology": "2"
+  "tautology": "2",
+  "update": "true"
 }

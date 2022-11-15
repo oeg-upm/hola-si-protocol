@@ -21,13 +21,12 @@ public class FileLinker implements IOntologyLinker {
         String alignments = null;
         Set<Alignment> result;
         try {
-            alignments = Files.readString(Path.of("data/" + App.CLIENT_NAME + "/alignments.txt"));
+            alignments = Files.readString(Path.of(App.CLIENT_NAME + "/data/links/" + App.LINKS_TYPE + ".rdf"));
         }catch (Exception e) {
             e.printStackTrace();
         }
 
         result = getUsefulAlignments(alignments);
-
         return result;
     }
 

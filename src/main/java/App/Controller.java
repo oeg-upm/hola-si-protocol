@@ -278,7 +278,6 @@ public class Controller {
             });
 
         });
-        get("/hello", (req, res) -> "Hello World");
     }
 
 }

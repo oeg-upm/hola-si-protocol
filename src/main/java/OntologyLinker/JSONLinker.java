@@ -7,6 +7,7 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.HashSet;
@@ -19,7 +20,7 @@ public class JSONLinker implements IOntologyLinker {
         String alignments = null;
 
         try {
-            alignments = Files.readString(Path.of("data/" + App.CLIENT_NAME + "/alignments.json"));
+            alignments = Files.readString(Path.of(App.CLIENT_NAME + "/data/links/alignments.json"));
         }catch (Exception e) {
             e.printStackTrace();
         }
