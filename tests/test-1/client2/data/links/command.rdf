@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+   <Alignment>
+      <xml>yes</xml>
+      <level>0</level>
+      <type>??</type>
+      <onto1>http://mouse.owl</onto1>
+      <onto2>http://human.owl</onto2>
+      <uri1>http://mouse.owl</uri1>
+      <uri2>http://human.owl</uri2>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001914" />
+            <entity2 rdf:resource="http://human.owl#NCI_C52844" />
+            <measure rdf:datatype="xsd:float">0.853219036378985</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000169" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12441" />
+            <measure rdf:datatype="xsd:float">0.8588506664091391</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001689" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32918" />
+            <measure rdf:datatype="xsd:float">0.5319852508017857</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001572" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13050" />
+            <measure rdf:datatype="xsd:float">0.6689229374667618</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000341" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12421" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002714" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12393" />
+            <measure rdf:datatype="xsd:float">0.41362136819003353</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002395" />
+            <entity2 rdf:resource="http://human.owl#NCI_C53076" />
+            <measure rdf:datatype="xsd:float">0.7013491500769339</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002369" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12876" />
+            <measure rdf:datatype="xsd:float">0.5508936683483119</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001669" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49479" />
+            <measure rdf:datatype="xsd:float">0.5950146640695132</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001589" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12233" />
+            <measure rdf:datatype="xsd:float">0.8570547697468973</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001688" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49311" />
+            <measure rdf:datatype="xsd:float">0.8533688551033394</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000334" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12381" />
+            <measure rdf:datatype="xsd:float">0.7298082862160057</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001454" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12852" />
+            <measure rdf:datatype="xsd:float">0.6280013505138877</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002754" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12443" />
+            <measure rdf:datatype="xsd:float">0.8567957955252563</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000176" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12399" />
+            <measure rdf:datatype="xsd:float">0.8572547568360086</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001690" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49301" />
+            <measure rdf:datatype="xsd:float">0.5766800933369979</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001194" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13057" />
+            <measure rdf:datatype="xsd:float">0.6047776475813725</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000313" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33508" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000181" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12459" />
+            <measure rdf:datatype="xsd:float">0.6720611788051437</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000374" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12887" />
+            <measure rdf:datatype="xsd:float">0.8588506664091391</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001175" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13052" />
+            <measure rdf:datatype="xsd:float">0.473397836155547</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001193" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13018" />
+            <measure rdf:datatype="xsd:float">0.5329098202137735</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000194" />
+            <entity2 rdf:resource="http://human.owl#NCI_C28401" />
+            <measure rdf:datatype="xsd:float">0.6381540289565723</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000558" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12270" />
+            <measure rdf:datatype="xsd:float">0.477044515600063</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000316" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12688" />
+            <measure rdf:datatype="xsd:float">0.6623744908446049</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001486" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32635" />
+            <measure rdf:datatype="xsd:float">0.4979941362096562</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000186" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12420" />
+            <measure rdf:datatype="xsd:float">0.4382073428166485</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001569" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33103" />
+            <measure rdf:datatype="xsd:float">0.5123859861514194</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002147" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49584" />
+            <measure rdf:datatype="xsd:float">0.5600674784006188</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001635" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32200" />
+            <measure rdf:datatype="xsd:float">0.5113809948523239</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000372" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12778" />
+            <measure rdf:datatype="xsd:float">0.6376102701653626</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000402" />
+            <entity2 rdf:resource="http://human.owl#NCI_C52726" />
+            <measure rdf:datatype="xsd:float">0.7455540224973402</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000366" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32735" />
+            <measure rdf:datatype="xsd:float">0.8567030641239896</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000187" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49331" />
+            <measure rdf:datatype="xsd:float">0.429721445782859</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000140" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12910" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001568" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49583" />
+            <measure rdf:datatype="xsd:float">0.40084844435305694</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001339" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33894" />
+            <measure rdf:datatype="xsd:float">0.45261994533779604</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000088" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32201" />
+            <measure rdf:datatype="xsd:float">0.6059517422161224</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000428" />
+            <entity2 rdf:resource="http://human.owl#NCI_C34021" />
+            <measure rdf:datatype="xsd:float">0.5148249305697664</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000956" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12400" />
+            <measure rdf:datatype="xsd:float">0.411712660939823</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000860" />
+            <entity2 rdf:resource="http://human.owl#NCI_C52666" />
+            <measure rdf:datatype="xsd:float">0.6946770321348176</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001722" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32425" />
+            <measure rdf:datatype="xsd:float">0.5650713605867036</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000004" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13041" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000999" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12352" />
+            <measure rdf:datatype="xsd:float">0.6068051231108151</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000135" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32234" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002394" />
+            <entity2 rdf:resource="http://human.owl#NCI_C53020" />
+            <measure rdf:datatype="xsd:float">0.4584332385536772</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000031" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12680" />
+            <measure rdf:datatype="xsd:float">0.4233704658197481</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001691" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12435" />
+            <measure rdf:datatype="xsd:float">0.45104654621081147</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000891" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12448" />
+            <measure rdf:datatype="xsd:float">0.8571834450359438</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001646" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12948" />
+            <measure rdf:datatype="xsd:float">0.4544800575718027</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002649" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13073" />
+            <measure rdf:datatype="xsd:float">0.47404051995869184</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001327" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12919" />
+            <measure rdf:datatype="xsd:float">0.5285857239953944</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002608" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32898" />
+            <measure rdf:datatype="xsd:float">0.4137456483388597</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001610" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49313" />
+            <measure rdf:datatype="xsd:float">0.492058561376311</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000116" />
+            <entity2 rdf:resource="http://human.owl#NCI_C53129" />
+            <measure rdf:datatype="xsd:float">0.6388300295379126</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000562" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49794" />
+            <measure rdf:datatype="xsd:float">0.5419842269908348</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001254" />
+            <entity2 rdf:resource="http://human.owl#NCI_C52886" />
+            <measure rdf:datatype="xsd:float">0.859633345329405</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000475" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32124" />
+            <measure rdf:datatype="xsd:float">0.720057009250503</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000805" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33781" />
+            <measure rdf:datatype="xsd:float">0.4039254243386822</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000941" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12797" />
+            <measure rdf:datatype="xsd:float">0.6513311145664231</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000007" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12429" />
+            <measure rdf:datatype="xsd:float">0.8350857338105319</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000803" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12708" />
+            <measure rdf:datatype="xsd:float">0.577046447960005</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001295" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12376" />
+            <measure rdf:datatype="xsd:float">0.5808994598125957</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000254" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49481" />
+            <measure rdf:datatype="xsd:float">0.6371456214303564</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000193" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33204" />
+            <measure rdf:datatype="xsd:float">0.8570377645309912</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002560" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12260" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002324" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32561" />
+            <measure rdf:datatype="xsd:float">0.7160175553988595</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001348" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32250" />
+            <measure rdf:datatype="xsd:float">0.49483533224931947</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002503" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12692" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000021" />
+            <entity2 rdf:resource="http://human.owl#NCI_C48823" />
+            <measure rdf:datatype="xsd:float">0.6467298141134757</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001931" />
+            <entity2 rdf:resource="http://human.owl#NCI_C52846" />
+            <measure rdf:datatype="xsd:float">0.8567360997326191</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001573" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33286" />
+            <measure rdf:datatype="xsd:float">0.510441624442774</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002715" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32888" />
+            <measure rdf:datatype="xsd:float">0.7211790408807935</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000084" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32818" />
+            <measure rdf:datatype="xsd:float">0.8569362993595762</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000289" />
+            <entity2 rdf:resource="http://human.owl#NCI_C34030" />
+            <measure rdf:datatype="xsd:float">0.5230663471313012</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001626" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32656" />
+            <measure rdf:datatype="xsd:float">0.6890109478234041</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001008" />
+            <entity2 rdf:resource="http://human.owl#NCI_C52707" />
+            <measure rdf:datatype="xsd:float">0.46741297957507544</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001682" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12679" />
+            <measure rdf:datatype="xsd:float">0.663287657232885</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000310" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33724" />
+            <measure rdf:datatype="xsd:float">0.6844878497022582</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001346" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13456" />
+            <measure rdf:datatype="xsd:float">0.4826860324031673</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000484" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13164" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001000" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12353" />
+            <measure rdf:datatype="xsd:float">0.5335540450935217</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001664" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33840" />
+            <measure rdf:datatype="xsd:float">0.8568859184569734</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000164" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12878" />
+            <measure rdf:datatype="xsd:float">0.599915732160288</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000237" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12499" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000189" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32264" />
+            <measure rdf:datatype="xsd:float">0.42768924395597324</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000367" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32733" />
+            <measure rdf:datatype="xsd:float">0.8555931572428386</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000892" />
+            <entity2 rdf:resource="http://human.owl#NCI_C52733" />
+            <measure rdf:datatype="xsd:float">0.7038775834055142</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000136" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12936" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001531" />
+            <entity2 rdf:resource="http://human.owl#NCI_C28381" />
+            <measure rdf:datatype="xsd:float">0.4644523497219616</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000085" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32874" />
+            <measure rdf:datatype="xsd:float">0.8570910910265275</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002546" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32891" />
+            <measure rdf:datatype="xsd:float">0.8568798880081314</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001624" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12259" />
+            <measure rdf:datatype="xsd:float">0.8567360997326191</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000342" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32677" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000170" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12455" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001200" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32226" />
+            <measure rdf:datatype="xsd:float">0.4590057445095858</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000897" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32809" />
+            <measure rdf:datatype="xsd:float">0.6309200800591248</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000561" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49795" />
+            <measure rdf:datatype="xsd:float">0.5828248531917204</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001692" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12414" />
+            <measure rdf:datatype="xsd:float">0.7506769282260413</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001006" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12232" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001575" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33422" />
+            <measure rdf:datatype="xsd:float">0.4044319726389812</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000253" />
+            <entity2 rdf:resource="http://human.owl#NCI_C25444" />
+            <measure rdf:datatype="xsd:float">0.5339842422977408</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001540" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32223" />
+            <measure rdf:datatype="xsd:float">0.459968241179339</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000318" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32579" />
+            <measure rdf:datatype="xsd:float">0.6745098518092806</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000427" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33784" />
+            <measure rdf:datatype="xsd:float">0.5048229219870066</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001286" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13323" />
+            <measure rdf:datatype="xsd:float">0.8137999343098411</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000370" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12885" />
+            <measure rdf:datatype="xsd:float">0.8588506664091391</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001660" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32225" />
+            <measure rdf:datatype="xsd:float">0.8567175060634812</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001324" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33157" />
+            <measure rdf:datatype="xsd:float">0.6517185574456668</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000564" />
+            <entity2 rdf:resource="http://human.owl#NCI_C29667" />
+            <measure rdf:datatype="xsd:float">0.5069331769040698</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001351" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32156" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001457" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33868" />
+            <measure rdf:datatype="xsd:float">0.6637169740024296</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000121" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12316" />
+            <measure rdf:datatype="xsd:float">0.6263466839812333</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002556" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12786" />
+            <measure rdf:datatype="xsd:float">0.7088419010355889</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002467" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33304" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002655" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12416" />
+            <measure rdf:datatype="xsd:float">0.4950173664345932</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000258" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49225" />
+            <measure rdf:datatype="xsd:float">0.7625235133526811</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002468" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12990" />
+            <measure rdf:datatype="xsd:float">0.6535456333619843</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000022" />
+            <entity2 rdf:resource="http://human.owl#NCI_C48822" />
+            <measure rdf:datatype="xsd:float">0.5935204313814882</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001009" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12898" />
+            <measure rdf:datatype="xsd:float">0.6356301001696539</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002400" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33812" />
+            <measure rdf:datatype="xsd:float">0.6094304390182677</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002419" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32885" />
+            <measure rdf:datatype="xsd:float">0.5976747593814214</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000391" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33743" />
+            <measure rdf:datatype="xsd:float">0.4275296139685969</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001203" />
+            <entity2 rdf:resource="http://human.owl#NCI_C26464" />
+            <measure rdf:datatype="xsd:float">0.4524923922136853</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002435" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12746" />
+            <measure rdf:datatype="xsd:float">0.8588506664091391</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000034" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32628" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001693" />
+            <entity2 rdf:resource="http://human.owl#NCI_C13318" />
+            <measure rdf:datatype="xsd:float">0.8567231619619858</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000454" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33763" />
+            <measure rdf:datatype="xsd:float">0.45751261020216344</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000563" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33229" />
+            <measure rdf:datatype="xsd:float">0.5209398572020598</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001922" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32814" />
+            <measure rdf:datatype="xsd:float">0.8568947926546985</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000369" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12927" />
+            <measure rdf:datatype="xsd:float">0.8566820882714485</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001905" />
+            <entity2 rdf:resource="http://human.owl#NCI_C48821" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000429" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33483" />
+            <measure rdf:datatype="xsd:float">0.6702440084020018</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001632" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49240" />
+            <measure rdf:datatype="xsd:float">0.4059851539492204</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001249" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33735" />
+            <measure rdf:datatype="xsd:float">0.656520321406598</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001686" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12710" />
+            <measure rdf:datatype="xsd:float">0.4791346636995643</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001565" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12848" />
+            <measure rdf:datatype="xsd:float">0.6069280710052795</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0002587" />
+            <entity2 rdf:resource="http://human.owl#NCI_C32684" />
+            <measure rdf:datatype="xsd:float">0.7160135945195654</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000184" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49346" />
+            <measure rdf:datatype="xsd:float">0.6008485593816858</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000955" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12444" />
+            <measure rdf:datatype="xsd:float">0.4643494025867081</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000207" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12510" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000559" />
+            <entity2 rdf:resource="http://human.owl#NCI_C49792" />
+            <measure rdf:datatype="xsd:float">0.5914323361460327</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001627" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12437" />
+            <measure rdf:datatype="xsd:float">0.6739553919416148</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000268" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12713" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000251" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33527" />
+            <measure rdf:datatype="xsd:float">0.5619364015479427</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000259" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12292" />
+            <measure rdf:datatype="xsd:float">0.8588506664091393</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000133" />
+            <entity2 rdf:resource="http://human.owl#NCI_C12933" />
+            <measure rdf:datatype="xsd:float">0.4297935986051842</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001782" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33024" />
+            <measure rdf:datatype="xsd:float">0.6472931455056542</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0000266" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33818" />
+            <measure rdf:datatype="xsd:float">0.5863242906339923</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+      <map>
+         <Cell>
+            <entity1 rdf:resource="http://mouse.owl#MA_0001326" />
+            <entity2 rdf:resource="http://human.owl#NCI_C33205" />
+            <measure rdf:datatype="xsd:float">0.8568482808571182</measure>
+            <relation>=</relation>
+         </Cell>
+      </map>
+   </Alignment>
+</rdf:RDF>

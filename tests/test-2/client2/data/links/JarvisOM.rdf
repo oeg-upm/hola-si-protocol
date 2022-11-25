@@ -1,0 +1,3712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns="http://knowledgeweb.semanticweb.org/heterogeneity/alignment" 
+	 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	 xmlns:xsd="http://www.w3.org/2001/XMLSchema#" 
+	 alignmentSource="Jarvis Ontology Matching">
+
+<Alignment>
+<xml>yes</xml>
+<level>0</level>
+<type>??</type>
+<onto1>http://mouse.owl</onto1>
+<onto2>http://human.owl</onto2>
+
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000004"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33816"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000005"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13041"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000007"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12429"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000009"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12801"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000015"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000022"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12799"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000024"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13063"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000030"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000031"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C25389"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000033"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32141"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000036"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32497"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000038"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C25203"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000039"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33894"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000043"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32078"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000044"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32622"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000046"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32898"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000047"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32974"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000059"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12434"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000062"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12669"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000063"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12672"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000064"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12372"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000067"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12814"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000071"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12818"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000072"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12727"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000104"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12373"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000113"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13046"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000115"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13045"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000120"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12393"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000129"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12400"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000132"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12400"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000134"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12431"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000141"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12432"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000143"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12802"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000151"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12470"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000153"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12708"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000158"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32705"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000164"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12371"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000168"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12439"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000171"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12456"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000173"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12458"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000175"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13319"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000179"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12459"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000180"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12459"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000191"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12444"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000198"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12445"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000199"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12443"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000217"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12466"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000236"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12394"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000239"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12395"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000240"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12395"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000259"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32165"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000261"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12401"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000263"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12344"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000265"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12341"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000266"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12342"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000267"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13319"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000268"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12713"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000273"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12737"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000276"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12343"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000280"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12784"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000281"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12756"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000299"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000300"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000304"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33317"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000309"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12933"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000315"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000319"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13044"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000328"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12736"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000331"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C43362"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000334"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12381"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000335"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12382"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000335"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12383"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000336"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12390"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000338"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12263"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000339"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12387"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000340"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12388"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000342"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32677"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000343"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12220"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000347"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12422"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000348"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12506"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000348"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52667"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000349"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000351"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000352"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12389"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000353"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12391"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000358"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12392"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000368"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12415"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000368"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C34005"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000373"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12415"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000373"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C34005"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000378"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12416"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000378"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49327"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000379"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12417"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000384"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12404"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000384"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33487"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000389"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12405"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000390"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12313"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000391"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12314"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000394"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12407"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000395"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12408"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12323"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12409"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12785"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12412"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49326"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000414"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12420"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000415"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12468"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000415"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33483"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000420"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12986"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000422"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12684"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000425"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12468"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000425"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33483"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000426"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12468"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000426"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33483"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000432"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12425"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000436"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12683"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000441"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12428"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000443"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12423"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000451"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32497"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000453"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13044"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000460"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33894"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000463"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32078"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000471"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32898"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000476"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12669"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000478"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12669"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000479"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12669"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000494"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000496"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000497"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12466"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000498"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12470"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000525"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000527"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000528"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12466"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000529"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13018"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000530"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12470"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000535"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000569"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000571"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000573"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13018"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000574"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12470"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000612"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000615"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000616"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12466"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000617"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12470"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000660"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000662"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13044"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000663"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000664"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12466"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000665"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12470"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000720"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13319"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000758"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12432"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000796"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12299"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000798"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12801"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000904"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12443"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000949"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12444"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0000978"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12443"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001095"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12758"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001113"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12348"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001137"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13018"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001215"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001216"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33051"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001242"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12481"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001243"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12710"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001274"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001289"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C28381"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001292"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33429"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001296"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13319"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001329"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12695"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001330"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12783"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001331"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12793"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001335"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32042"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001336"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001337"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32884"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001356"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12731"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001358"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12809"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001359"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12717"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001360"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12718"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001361"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12800"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001374"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33282"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001401"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001402"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001403"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001404"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001405"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001407"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001408"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001409"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001410"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001411"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001412"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12782"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52759"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52760"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52761"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52762"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52763"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52764"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52765"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52766"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52767"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52768"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52769"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001413"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52770"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001420"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12933"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001459"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001463"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001478"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001482"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12366"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001487"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12290"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001506"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13044"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001577"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12220"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001585"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13319"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001593"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12422"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001622"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13046"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001655"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12415"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001655"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C34005"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001657"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13250"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001683"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12415"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001683"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C34005"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001684"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12416"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001684"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49327"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001685"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12416"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001685"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49327"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001687"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12417"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001704"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12404"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001704"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33487"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001705"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12404"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001705"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33487"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001722"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32425"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001746"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12412"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001746"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49326"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001747"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12412"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001747"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49326"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001749"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12710"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001893"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32705"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001897"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32705"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001901"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13018"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001904"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12702"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001905"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C48821"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001925"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12372"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001933"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12372"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0001988"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12372"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002021"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12372"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002026"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12372"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002085"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12814"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002093"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12814"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002102"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12814"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002197"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12814"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002252"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12814"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002269"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32200"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002270"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32200"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002306"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32666"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002368"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33515"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002380"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C28381"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002382"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C53177"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002398"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33809"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002399"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33812"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002406"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12719"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002420"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12725"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002423"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002423"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33286"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002424"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C53075"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002425"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002450"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13041"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002463"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13041"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002464"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C52559"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002466"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33301"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002473"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13071"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002475"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13070"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002476"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12229"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002477"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12229"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002480"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12811"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002482"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12347"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002501"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13356"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002502"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13325"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002508"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C33739"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002513"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13192"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002520"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13252"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002522"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13277"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002536"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13278"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002537"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12470"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002538"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13276"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002539"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13280"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002541"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32276"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002542"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32453"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002543"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32505"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002545"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13283"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002551"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32348"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002553"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13056"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002583"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12372"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002593"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12814"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002616"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12415"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002616"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C34005"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002652"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12416"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002652"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49327"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002655"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12416"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002655"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C49327"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002697"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12948"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002702"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C32576"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002715"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C13044"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#MA_0002726"/>
+		<entity2 rdf:resource="http://human.owl#NCI_C12409"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#UNDEFINED_part_of"/>
+		<entity2 rdf:resource="http://human.owl#UNDEFINED_part_of"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://mouse.owl#UNDEFINED_part_of"/>
+		<entity2 rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+		<entity2 rdf:resource="http://human.owl#UNDEFINED_part_of"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+<map>
+	<Cell>
+		<entity1 rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+		<entity2 rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
+		<measure rdf:datatype="xsd:float">1</measure>
+		<relation>=</relation>
+	</Cell>
+</map>
+
+</Alignment>
+</rdf:RDF>

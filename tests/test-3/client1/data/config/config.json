@@ -1,0 +1,11 @@
+{
+  "starts":"true",
+  "peer":"client2",
+  "target-port":"4568",
+  "linker":"file",
+  "reducer":"rand-max",
+  "increment": "0.01",
+  "special": "1.5",
+  "tautology": "2",
+  "update": "true"
+}
