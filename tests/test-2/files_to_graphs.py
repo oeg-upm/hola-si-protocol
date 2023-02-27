@@ -4,9 +4,10 @@ from os import listdir
 from os.path import isfile, join
 import pandas as pd
 import matplotlib.pyplot as plt
+import sys
 
 
-path="results/logmaplite/"
+path="results/" + sys.argv[1] + "/"
 dirfiles = [f for f in listdir(path) if isfile(join(path, f))]
 
 for file in dirfiles:
